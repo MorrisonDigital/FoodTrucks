@@ -1,0 +1,184 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  color: #2d2d29;
+}
+
+p{
+	line-height: 1.2em;
+}
+
+.h {
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  line-height: 1.38;
+  text-align: center;
+}
+
+.logo{
+	width: 225px;
+}
+
+.image {
+  display: block;
+  float: left;
+  height: auto;
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+  clear: both;
+  width: 225px;
+  margin-left: 25px;
+}
+
+.footer_text{
+  float: left;
+  clear: both;
+  width: 100%;
+  margin-left: 25px;
+}
+
+.container-1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 15;
+  width: 320px;
+}
+
+
+.container-2,
+.container-3,
+.container-4,
+.container-5 {
+  float: left;
+  clear: both;
+  min-height: 400px;
+  margin-left: 370px;
+  width: 80%;
+}
+
+.footer{
+  float: left;
+  clear: both;
+  min-height: 40px;
+  margin-left: 370px;
+  padding-bottom: 25px;
+}
+
+
+.image-1 {
+  width: 225px;
+  margin: 25px 0 25px 15px;
+}
+
+.image-2 {
+  width: 225px;
+  margin-left: 15px;
+}
+
+.image-3 {
+  width: 250px;
+  margin-left: 5px;
+}
+
+.container ._text-1,
+.container ._text-2,
+.container ._text-3,
+.container ._text-4 {
+  float: left;
+  clear: both;
+  width: 100%;
+  text-align: right;
+}
+
+.backButton{
+	display: none;
+}
+
+/*** Map ***/
+
+.mapKey{
+	width: 20%;
+	height: 400px;
+	background-color: #dfece6;
+	border-radius: 30px;
+	-moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    float: left;
+}
+
+.GoogleMap{
+	width: 60%;
+	height: 400px;
+	float: left;
+}
+
+.contentContainer{
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+@media(max-width: 640px) {
+
+  .logo{
+	width: 225px;
+  }
+  .container {
+    width: 100%;
+    padding-top: 25px;
+  }
+
+  .container .image {
+    float: none;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container .text {
+    width: 40%;
+  }
+  
+  .container .footer_text{
+	  width: 85%;
+  }
+
+  .container .image-1 {
+    margin-top: 0;
+  }
+
+  .container-1 {
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 25px;
+    position: relative;
+  }
+
+  .container-2,
+  .container-3,
+  .container-4,
+  .container-5,
+  .footer {
+    float: none;
+    clear: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .container ._text-1,
+  .container ._text-2,
+  .container ._text-3,
+  .container ._text-4 {
+    text-align: center;
+  }
+  
+  .backButton{
+	display: block;
+  }
+}
